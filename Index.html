@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel='stylesheet' href='style.css'/>
-	<script src='script.js'></script>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+li {
+    float: left;
+}
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-<ul>
-    <li><a href="/Pages/comingsoon.html">Coming Soon</a></li> 
-    <li><a href="contact.asp">Contact</a></li>
-    <li><a href="about.asp">About</a></li>
-</ul>
-<h1>
-    <center>
-        <strong>Edwin Vallecillo<strong> 
-    </center>
-</h1>
-<!-- This is a Bootstrap class that groups everything into a box, or "container"  -->
-    <div class="container">
-<!-- This starts a new row inside the container -->   
-   <div class="row">
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:#4CAF50;
+}
+</style>
 </head>
 <body>
-   
 
-<audio> 
-    <audio controls autoplay loop> 
-        <source src="URL"
-</audio>                
+<ul>
+  <li><a class="active" href="#home">Consoles and Companies</a></li>
+  <li><a href="#news">Mario bros.</a></li>
+  <li><a href="#contact">Sonic</a></li>
+    <li><a href="#about">Super Smash Bros.</a></li>
+  <li><a href="something">PacMan</a></li>
+    <li><a href="other">MegaMan</a></li>
+</ul>
+<h1>
+    
+
+    <audio> 
+       <audio controls autoplay loop> 
+        <source src="">
+    </audio>
 </html>
