@@ -1,0 +1,56 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+} /*This Nav bar was copied from http://www.w3schools.com/bootstrap/bootstrap_navbar.asp*/ 
+  /*The code for the table was taken from http://www.w3schools.com/html/html_layout.asp*/
+body {
+    background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkFDYe7DxQGmz1Oiv0QheRyAWMProBahATO-1n2F16KrTcmRkG");
+}
+.smash { 
+    padding: 20px
+    margin: 20px
+}
+.img { 
+    text align: center;
+    border: 1px;
+}
+.img {
+    border: 1px;
+    background: #66ccff;
+    opacity:1.0;
+}
+.interest {
+    background: #66ccff;
+}
+.container {
+    background: #66ccff; 
+}
+.science {
+    background: #66ccff;
+}
+.major { 
+    background: #66ccff;
+}
+.me {
+    background: #66ccff;
+}
