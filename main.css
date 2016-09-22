@@ -34,11 +34,6 @@ body {
     text align: center;
     border: 10px;
 }
-.img {
-    border: 10px;
-    background: #66ccff;
-    opacity:1.0;
-}
 .interest {
     background: #66ccff;
 }
@@ -54,8 +49,9 @@ body {
 .me {
     background: #66ccff;
 }
-p { 
+h1 { 
    font-family: '8BITWONDERNominal', sans-serif; 
    font-weight: normal; 
    font-style: normal; 
 }
+
