@@ -32,10 +32,10 @@ body {
 }
 .img { 
     text align: center;
-    border: 1px;
+    border: 10px;
 }
 .img {
-    border: 1px;
+    border: 10px;
     background: #66ccff;
     opacity:1.0;
 }
@@ -53,4 +53,9 @@ body {
 }
 .me {
     background: #66ccff;
+}
+p { 
+   font-family: '8BITWONDERNominal', sans-serif; 
+   font-weight: normal; 
+   font-style: normal; 
 }
