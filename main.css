@@ -54,4 +54,17 @@ h1 {
    font-weight: normal; 
    font-style: normal; 
 }
-
+p {
+    width: 620px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 10px;
+    left: 100px;
+    width: 95%;
+    text-align: center;
+    font-size: 18px;
+}
+img {
+    border: 5px solid #ffffff; 
+    padding: 10spx;
+}
