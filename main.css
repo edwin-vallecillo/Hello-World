@@ -23,30 +23,20 @@ li a:hover {
     background-color: #111;
 } /*This Nav bar was copied from http://www.w3schools.com/bootstrap/bootstrap_navbar.asp*/ 
   /*The code for the table was taken from http://www.w3schools.com/html/html_layout.asp*/
-body {
+.one {
     background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkFDYe7DxQGmz1Oiv0QheRyAWMProBahATO-1n2F16KrTcmRkG");
 }
-.smash { 
-    padding: 20px
-    margin: 20px
+.two {
+     background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_QJsxGqSOz3Ls8j1KnbiPQnIhEBRwWpFuAclT3oCAP2E0EIgk");
 }
-.img { 
-    text align: center;
-    border: 10px;
-}
-.interest {
+.mario { 
+    padding: 20px;
+    margin: 20px;
     background: #66ccff;
 }
-.container {
-    background: #66ccff; 
-}
-.science {
-    background: #66ccff;
-}
-.major { 
-    background: #66ccff;
-}
-.me {
+.sonic {
+    padding: 20px;
+    margin: 20px;
     background: #66ccff;
 }
 h1 { 
