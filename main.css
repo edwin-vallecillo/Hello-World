@@ -29,12 +29,20 @@ li a:hover {
 .two {
      background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ_QJsxGqSOz3Ls8j1KnbiPQnIhEBRwWpFuAclT3oCAP2E0EIgk");
 }
+.three {
+     background-image: url("http://i.imgur.com/fpCZJCH.jpg");
+}
 .mario { 
     padding: 20px;
     margin: 20px;
     background: #66ccff;
 }
 .sonic {
+    padding: 20px;
+    margin: 20px;
+    background-image: url("http://i.imgur.com/TmHQroz.png");
+}
+.pacman {
     padding: 20px;
     margin: 20px;
     background: #66ccff;
