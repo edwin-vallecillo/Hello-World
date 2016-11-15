@@ -37,23 +37,23 @@ li a:hover {
 }
 .main {
     background-image: url("http://i.imgur.com/TmHQroz.png");
+    border-radius:10px;
 }
 .mario {
      background-image: url("http://i.imgur.com/TmHQroz.png");
-}
-    padding: 20px;
-    margin: 20px;
-    background: #66ccff;
+     border-radius:10px;
 }
 .sonic {
     padding: 20px;
     margin: 20px;
-    background-image: url("http://i.imgur.com/ER9HhYJ.png")
+    background: #66ccff;
+    border-radius:10px;
 }
 .pacman {
     padding: 20px;
     margin: 20px;
-    background: #66ccff;
+    background-image: url("http://i.imgur.com/TmHQroz.png");
+    border-radius:10px;
 }
 h1 { 
    font-family: '8BITWONDERNominal', sans-serif; 
@@ -74,4 +74,34 @@ p {
 img {
     border: 5px solid #ffffff; 
     padding: 10spx;
+}
+.light {
+    -webkit-box-shadow: 0 0 8px #FFD700;
+    -moz-box-shadow: 0 0 8px #FFD700;
+    box-shadow: 0 0 8px #FFD700;
+    cursor:pointer;
+}
+#button{
+    background-image: url("http://i.imgur.com/TmHQroz.png");
+    border-radius:10px;
+    display: inline-block;
+    height:20px;
+	width:70px;
+	background-color:#cc0000;
+	font-family:arial;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+
+.list {
+	font-family:garamond;
+	color:#cc0000;
+}
+h2 {
+    background: url("http://i.imgur.com/TmHQroz.png");
+    border-radius:10px;
+    width:116px
 }
