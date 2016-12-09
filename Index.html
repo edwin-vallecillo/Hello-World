@@ -2,11 +2,10 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="main.css">
-	<style>
-            <!-- Latest compiled and minified CSS -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<style> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
@@ -15,87 +14,71 @@
     </style>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
-<body class="one">
+<body class="four">
 <ul>
   <li><a class="active" href="/Users/edwin.vallecillo/Documents/index.html">Video Games</a></li>
-<li><a href="/Users/edwin.vallecillo/Documents/sonic.html">Mario Bros.</a></li>
+<li><a href="/Users/edwin.vallecillo/Documents/index.html">Mario Bros.</a></li>
   <li><a href="/Users/edwin.vallecillo/Documents/sonic.html">Sonic</a></li>
   <li><a href="/Users/edwin.vallecillo/Documents/PacMan.html">Pac-Man</a></li>
 </ul>
 <h1>
+  <div id="title">
     <center>
-        <img src="data:image/png;base64,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"> 
+        <img src="http://i.imgur.com/5YtS7Sr.jpg">
     </center>
+  </div>
+<h2>Names List</h2>
+    <form name="checkListForm">
+			<input type="text" name="checkListItem"/>
+    </form>
+<div id="button">Add!</div>
+	<div class="list"></div>
+<br/>
 </h1>
-<div class="mario">
-<div class="container">
+<div class="main">
+  <div class="container">
     <div class="row">
          <div class="col-md-6">
-             <p>Mario First debuted as "Jumpman" in the game <em>Donkey Kong</em> on July 9, 1981. In this iteration Mario is shown to have had a pet ape, which he mistreats, that takes his girlfriend. In this game Mario must rescue the girl.</p>
+             <div id="intro">
+                <p>Video games have been around for generations bringing joy toy people of all ages, from kids to adults video games have captivted the hearts of millions and continue to draw attention with their inovations. This site will serve to pay some attention to some of the video games that started it all. From Mario to Sonic to Pac-Man to Megaman, each played their own role in making video games as popular as they are now.</p>
+             </div>
         </div>
     </div>
-</div>
+  </div>
+<ul id="slides">
+    <li class="slide showing">Slide 1</li>
+    <li class="slide"><img src=""></li>
+    <li class="slide">Slide 3</li>
+    <li class="slide">Slide 4</li>
+    <li class="slide">Slide 5</li>
+</ul>
+    <button class="controls" id="pause">Pause</button>
+    <button class="controls" id="previous">Previous</button>
+<button class="controls" id="next">Next</button>
     <center>
-        <span class= col-md-6>
-            <img src="http://i.imgur.com/izLm64p.jpg?1">
-            <img src ="https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Donkey_Kong_Gameplay.png/220px-Donkey_Kong_Gameplay.png">
-             <img src ="http://i.imgur.com/yHQNBPQ.jpg?1">
+        <span class= "img">
+            <img src="http://i.imgur.com/AIaC4TR.png">
+            <img src ="http://i.imgur.com/zzLzrFg.png">
+            <img src="http://i.imgur.com/OGsGy78.jpg?1">
+            <img src="http://i.imgur.com/BHxMHx0.jpg">
         </span>
     </center>
-    <div class="row">
-        <div class ="col-md-4">
-            <p>Mario's most famous appearance was in the 1985 NES classic Mario Bros where he must go through eight worlds in order to save Princess Toadstool from Bowser.</p>
-        </div>
-    </div>
-<center>
-<div class="row">  
-    <span class="col-md-4">
-    <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq5fbuJTZr-KwRccXAibmZh20P0PQX0971p5RNi1fhv1qScgIoGQ">
-    </span>
-    <span class="col-md-4">
-    <img src ="http://i.imgur.com/ljQQLN9.gif?1">  
-    </span>
-    <span class="col-md-4">
-    <img src ="http://i.imgur.com/DnbNn5c.png"> 
-    </span>
-</div>
-</center>
-<div class="row">
-    <div class="col-md-4">
-        <div> 
-            <p>Mario's most recent games have been the long line of "New Super Mario Bros. games" and the 3D mario Games such as Super Mario 3D Land.</p>
-        </div>
-    </div>
-</div>
-<div>
-    <center>
-    <span class="col-md-6">
-            <img src="http://i.imgur.com/u6MGLqk.jpg">
-    </span>
-    <span class="col-md-6">
-        <img src="http://i.imgur.com/QxulT0x.jpg?2">
-    </span>
-    </center>
-</div>
-<div>
-    <center>
-    <span class="col-md-6"> 
-        <img src="http://i.imgur.com/tREoBD9.jpg?2">
-</span>
-    <span class="col-md-6">
-       <img src ="http://i.imgur.com/u3DlD57.jpg?3">
-    </span>
-    </center>
-</div>    
+    <img id="plane" src='http://i.imgur.com/WmhK6mX.png' border='0'/>
 <audio> 
     <audio controls autoplay loop> 
-        <source src="http://www.mariomayhem.com/downloads/sound_tracks/Super_Mario_Bros._1/01-main-theme-overworld.mp3">
-    </audio> 
+        <source src="http://66.90.91.26/ost/nes-remix-collection-wii-u-/jsfmecqazv/01-title-screen-nes-remix-.mp3">
+    </audio>
 </audio>
+  <center> 
+    <footer>
+    Created By: Edwin Vallecillo
+    </footer>
+   </center>
+<script type="text/javascript" src="script.js"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
 </div>
-    <div>
-        <center>
-            Mario 
-        </center>
-    </div>
+</body>
 </html>
